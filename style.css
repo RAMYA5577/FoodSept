@@ -1,0 +1,235 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: blanchedalmond;
+    margin: 0px;
+    padding: 40px;
+}
+.navBar{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.navBar .d{
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 30px;
+}
+.navBar h1{
+    color: red;
+    font-size: 30px;
+}
+.navList{
+    list-style-type: none;
+    display: flex;
+    padding-top: 10px;
+}
+.navList li{
+    margin: 10px;
+}
+.search{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+    justify-content: space-around;
+}
+.search p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+.navSignIn{
+    width: 500px;
+    display: flex;
+    /* padding-top: 10px; */
+}
+
+.navSignIn button{
+    width: 120px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    
+}
+.navSignIn img{
+    margin-top: 10px;
+}
+/* ...................................... */
+/* header */
+.main{
+    display: flex;
+    margin: 0px;
+    /* background-color: bisque; */
+    justify-content: space-around;
+    align-items: center;
+}
+.fries{
+    display: flex;
+    background-color: rgb(251, 164, 179);
+    border-radius: 50px;
+    color: red;
+    font-size: 15px;
+    font-weight:bolder;
+    justify-content: space-between;
+    padding-left: 20px;
+    width: 200px;
+
+}
+.fries img{
+    background-color: wheat;
+    border-radius: 50px;
+   
+}
+.mainHeading{
+    font-size: 50px;
+}
+.mainHeading span{
+    color: red;
+}
+.mainDiv1{
+    padding-left: 0px;
+}
+.mainDiv1 button{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+}
+/* ............................. */
+/* section1 */
+.section1{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+.card{
+    border: 3px solid rgb(233, 228, 228);
+    border-radius: 20px;
+    box-shadow: gray;
+    margin: 30px;
+    padding: 20px;
+    border-top: none;
+    
+}
+.card1{
+    border: none;
+
+}
+.card3{
+    border-color: gold;
+}
+.card h2{
+    font-size: 45px;
+
+    padding-bottom: 30px;
+}
+/* ...................................................... */
+/* section2 */
+.section2{
+    margin: 20px;
+}
+.section2 .S2List{
+list-style-type: none;
+display: flex;
+justify-content: center;
+
+}
+.S2List li{
+    margin: 20px;
+}
+.section2 h3{
+    margin-left: 570px;
+    font-size: 30px;
+}
+.S2Cards{
+    display: flex;
+    justify-content: center;
+
+}
+ .S2card{
+    margin: 20px;
+    border: 3px solid rgb(203, 194, 194);
+    border-top: none;
+    border-radius: 20px;
+    padding: 30px;
+}
+.S2card3{
+    border-color: gold;
+}
+.Star{
+    margin-top: 50px;
+}
+.price{
+    color: red;
+    font-weight: bolder;
+}
+.S2card button{
+    color: red;
+    border-color: red;
+    border-radius: 10px;
+    padding: 5px;
+}
+.S2card3 button{
+    background-color: red;
+    color: white;
+}
+.more img{
+    margin-left: 720px;
+}
+/* .................................. */
+/* section3 */
+.section3{
+    background-color:rgba(134, 80, 80, 0.103);
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+.slip{
+    display: flex;
+    margin: 20px;
+    
+}
+.hp{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.S3Div2 h3{
+    font-size:40px;
+  
+}
+.saying{
+    color:red;
+}
+.S3D2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+   border-left: 3px solid red;
+   padding-left: 10px;
+}
+.divv{
+    display: flex;
+}
+.divv img{
+    margin-left: 120px;
+}
+.S3Div2{
+    border-left: 3px solid gray;
+    padding-left: 70px;
+}
